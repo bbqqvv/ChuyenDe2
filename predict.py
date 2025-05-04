@@ -4,10 +4,10 @@ import cv2
 import numpy as np
 
 # Load mô hình YOLO đã train
-model = YOLO(r"D:\WorkSpace\Python\YoloV8_Test\best.pt")
+model = YOLO(r"D:\WorkSpace\Python\ChuyenDe2\best.pt")
 
 # Dự đoán trên ảnh
-results = model(r'D:\WorkSpace\Python\YoloV8_Test\dataset\images\val\fb17c6c4-00002_00022.jpg')
+results = model(r'D:\WorkSpace\Python\ChuyenDe2\123.jpg')
 
 # Duyệt qua kết quả
 for r in results:
