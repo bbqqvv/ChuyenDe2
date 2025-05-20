@@ -7,7 +7,7 @@ import numpy as np
 model = YOLO(r"D:\WorkSpace\Python\ChuyenDe2\best.pt")
 
 # Dự đoán trên ảnh
-results = model(r'D:\WorkSpace\Python\ChuyenDe2\123.jpg')
+results = model(r'D:\WorkSpace\Python\ChuyenDe2\images.jpg')
 
 # Duyệt qua kết quả
 for r in results:

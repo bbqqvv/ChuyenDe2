@@ -16,9 +16,7 @@ test: # test images (optional)
 
 # Classes
 names:
-  0: parking
-  1: roundabout
-  2: stop
-  3: straight
-  4: turn left
-  5: turn right
+  0: stop
+  1: straight
+  2: turn left
+  3: turn right
